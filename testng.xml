@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="false" name="regression">
+
+<parameter name="browser" value="chrome"></parameter>
+
+  <test name="Reservetoday">
+    <classes>
+      <class name="com.Booking.BookingTest.ReserveTripTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
